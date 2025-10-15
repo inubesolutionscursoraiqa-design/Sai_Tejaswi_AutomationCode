@@ -1,0 +1,19 @@
+{
+  "username": "Siri",
+  "password": "Siri@123",
+  "forget_username": "Amith",
+  "new_username": "Amith",
+  "new_password": "Priya@123",
+  "invalid_username": "INVALID_USER_NOT_FOUND",
+  "invalid_username_login": "NONEXISTENT_USER_12345",
+  "invalid_username_forget": "INVALID_FORGET_USER_999",
+  "different_password": "DifferentPass123!",
+  "url": "http://ec2-3-108-225-62.ap-south-1.compute.amazonaws.com:8080/",
+  "browser": "chrome",
+  "headless": false,
+  "db_host": "ec2-3-108-225-62.ap-south-1.compute.amazonaws.com",
+  "db_port": 5432,
+  "db_name": "authlmsuat",
+  "db_user": "postgres",
+  "db_password": "hdfc.ergo123"
+}

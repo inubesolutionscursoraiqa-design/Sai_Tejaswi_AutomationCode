@@ -1,0 +1,134 @@
+[
+  {
+    "type": "goto",
+    "url": "CONFIG_URL"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "input",
+    "xpath": "//input[@name='username' or contains(@id, 'r')]",
+    "value": "CONFIG_USERNAME"
+  },
+  {
+    "type": "wait",
+    "seconds": 1
+  },
+  {
+    "type": "recaptcha"
+  },
+  {
+    "type": "wait",
+    "seconds": 1
+  },
+  {
+    "type": "click",
+    "xpath": "//button[contains(text(), 'Proceed') or @type='submit']"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "click",
+    "xpath": "//*[@id=\"root\"]/div/div[1]/div[2]/div/form/p"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "click",
+    "xpath": "/html/body/div[3]/div[3]/div/div/div[2]/button[2]"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "click",
+    "xpath": "//html/body/div[3]/div[3]/div/div/div[1]/div[2]/a"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "click",
+    "xpath": "//html/body/div[4]/div/div[6]/button[1]"
+  },
+  {
+    "type": "wait",
+    "seconds": 3
+  },
+  {
+    "type": "input",
+    "xpath": "//*[@id=\"otp-input-0\"]",
+    "value": "4"
+  },
+  {
+    "type": "input",
+    "xpath": "//*[@id=\"otp-input-1\"]",
+    "value": "3"
+  },
+  {
+    "type": "input",
+    "xpath": "//*[@id=\"otp-input-2\"]",
+    "value": "8"
+  },
+  {
+    "type": "input",
+    "xpath": "//*[@id=\"otp-input-3\"]",
+    "value": "7"
+  },
+  {
+    "type": "input",
+    "xpath": "//*[@id=\"otp-input-4\"]",
+    "value": "6"
+  },
+  {
+    "type": "input",
+    "xpath": "//*[@id=\"otp-input-5\"]",
+    "value": "2"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "click",
+    "xpath": "/html/body/div[3]/div[3]/div/div/div[2]/button[2]"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "input",
+    "xpath": "//*[@id=\":rj:\"]",
+    "value": "CONFIG_PASSWORD"
+  },
+  {
+    "type": "input",
+    "xpath": "//*[@id=\":rl:\"]",
+    "value": "CONFIG_PASSWORD"
+  },
+  {
+    "type": "wait",
+    "seconds": 1
+  },
+  {
+    "type": "click",
+    "xpath": "/html/body/div[3]/div[3]/div/div/div[2]/button[2]"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "screenshot",
+    "filename": "resend_otp_success.png"
+  }
+]

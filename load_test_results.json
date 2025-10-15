@@ -1,0 +1,17 @@
+{
+  "workflow_name": "LoginLogout",
+  "total_users": 10,
+  "successful_tests": 10,
+  "failed_tests": 0,
+  "success_rate": 100.0,
+  "total_execution_time": 95.27585124969482,
+  "avg_response_time": 59.12974352836609,
+  "min_response_time": 57.56559491157532,
+  "max_response_time": 61.8019700050354,
+  "median_response_time": 59.06896114349365,
+  "avg_cpu_usage": 23.14,
+  "avg_memory_usage": 86.65,
+  "throughput": 0.10495839049280634,
+  "errors": [],
+  "detailed_results": [
+    

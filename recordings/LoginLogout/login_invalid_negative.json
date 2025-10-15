@@ -1,0 +1,44 @@
+[
+  {
+    "type": "goto",
+    "url": "CONFIG_URL"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "input",
+    "xpath": "//input[@name='username' or contains(@id, 'r')]",
+    "value": "INVALID_USERNAME_LOGIN"
+  },
+  {
+    "type": "wait",
+    "seconds": 1
+  },
+  {
+    "type": "recaptcha"
+  },
+  {
+    "type": "wait",
+    "seconds": 1
+  },
+  {
+    "type": "click",
+    "xpath": "//button[contains(text(), 'Proceed') or @type='submit']"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "validate",
+    "xpath": "//div[contains(@class, 'error') or contains(@class, 'alert') or contains(text(), 'does not exist') or contains(text(), 'not found') or contains(text(), 'invalid')]",
+    "expected_text": "user does not exist",
+    "validation_type": "contains"
+  },
+  {
+    "type": "screenshot",
+    "filename": "login_invalid_user_error.png"
+  }
+]

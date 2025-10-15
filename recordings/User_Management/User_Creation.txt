@@ -1,0 +1,560 @@
+{
+    "title": "Recording 15/10/2025 at 4:35:07 pm",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1499,
+            "height": 385,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&query=enterprise&feed_dis=always&en_widget_reg=false&prerender=1&PC=U531",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&query=enterprise&feed_dis=always&en_widget_reg=false&prerender=1&PC=U531",
+                    "title": "New tab"
+                }
+            ]
+        },
+        {
+            "type": "navigate",
+            "url": "http://ec2-3-108-225-62.ap-south-1.compute.amazonaws.com:8080/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://ec2-3-108-225-62.ap-south-1.compute.amazonaws.com:8080/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Username"
+                ],
+                [
+                    "#\\:r2\\:"
+                ],
+                [
+                    "xpath///*[@id=\":r2:\"]"
+                ],
+                [
+                    "pierce/#\\:r2\\:"
+                ]
+            ],
+            "offsetY": 33.48750305175781,
+            "offsetX": 75.5999755859375
+        },
+        {
+            "type": "change",
+            "value": "admin",
+            "selectors": [
+                [
+                    "aria/Username"
+                ],
+                [
+                    "#\\:r2\\:"
+                ],
+                [
+                    "xpath///*[@id=\":r2:\"]"
+                ],
+                [
+                    "pierce/#\\:r2\\:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI&co=aHR0cDovL2VjMi0zLTEwOC0yMjUtNjIuYXAtc291dGgtMS5jb21wdXRlLmFtYXpvbmF3cy5jb206ODA4MA..&hl=en&type=image&v=KmpMK968ITiiEP0G5qc-Nzka&theme=light&size=normal&badge=bottomright&anchor-ms=20000&execute-ms=15000&cb=65u9klry0wum",
+            "selectors": [
+                [
+                    "div.recaptcha-checkbox-spinner"
+                ],
+                [
+                    "xpath///*[@id=\"recaptcha-anchor\"]/div[3]"
+                ],
+                [
+                    "pierce/div.recaptcha-checkbox-spinner"
+                ]
+            ],
+            "offsetY": 33.60000038146973,
+            "offsetX": 23.199999809265137
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/PROCEED →"
+                ],
+                [
+                    "button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/div[2]/div/form/div[3]/button"
+                ],
+                [
+                    "pierce/button"
+                ],
+                [
+                    "text/Proceed →"
+                ]
+            ],
+            "offsetY": 41.48748779296875,
+            "offsetX": 84.5999755859375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#\\:r6\\:"
+                ],
+                [
+                    "xpath///*[@id=\":r6:\"]"
+                ],
+                [
+                    "pierce/#\\:r6\\:"
+                ]
+            ],
+            "offsetY": 35.73750305175781,
+            "offsetX": 53.5999755859375
+        },
+        {
+            "type": "change",
+            "value": "iNube@",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#\\:r6\\:"
+                ],
+                [
+                    "xpath///*[@id=\":r6:\"]"
+                ],
+                [
+                    "pierce/#\\:r6\\:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "2",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "iNube@123",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#\\:r6\\:"
+                ],
+                [
+                    "xpath///*[@id=\":r6:\"]"
+                ],
+                [
+                    "pierce/#\\:r6\\:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/LOGIN →"
+                ],
+                [
+                    "form > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/div[2]/div/form/button"
+                ],
+                [
+                    "pierce/form > button"
+                ],
+                [
+                    "text/Login →"
+                ]
+            ],
+            "offsetY": 25.797698974609375,
+            "offsetX": 81.5999755859375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.css-79elbk > div > div > div > div > div:nth-of-type(2) span"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/div[2]/div[1]/div/div/div/div/div[2]/div/div[2]/span"
+                ],
+                [
+                    "pierce/div.css-79elbk > div > div > div > div > div:nth-of-type(2) span"
+                ],
+                [
+                    "text/User Management"
+                ]
+            ],
+            "offsetY": 11.199996948242188,
+            "offsetX": 62
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.css-79elbk > div.MuiBox-root > div:nth-of-type(4) > div"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/div[2]/div[1]/div[2]/div[4]/div"
+                ],
+                [
+                    "pierce/div.css-79elbk > div.MuiBox-root > div:nth-of-type(4) > div"
+                ],
+                [
+                    "text/Create New User"
+                ]
+            ],
+            "offsetY": 14.399993896484375,
+            "offsetX": 52
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/User Full Name"
+                ],
+                [
+                    "#\\:rf\\:"
+                ],
+                [
+                    "xpath///*[@id=\":rf:\"]"
+                ],
+                [
+                    "pierce/#\\:rf\\:"
+                ]
+            ],
+            "offsetY": 23.787490844726562,
+            "offsetX": 79
+        },
+        {
+            "type": "change",
+            "value": "saisiri",
+            "selectors": [
+                [
+                    "aria/User Full Name"
+                ],
+                [
+                    "#\\:rf\\:"
+                ],
+                [
+                    "xpath///*[@id=\":rf:\"]"
+                ],
+                [
+                    "pierce/#\\:rf\\:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "body"
+                ],
+                [
+                    "xpath//html/body"
+                ],
+                [
+                    "pierce/body"
+                ]
+            ],
+            "offsetY": 242,
+            "offsetX": 631
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/EXTERNAL"
+                ],
+                [
+                    "li.Mui-focusVisible"
+                ],
+                [
+                    "xpath///*[@id=\":rg:\"]/li[1]"
+                ],
+                [
+                    "pierce/li.Mui-focusVisible"
+                ],
+                [
+                    "text/EXTERNAL"
+                ]
+            ],
+            "offsetY": 13,
+            "offsetX": 72
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > div div:nth-of-type(3) > div"
+                ],
+                [
+                    "xpath///*[@id=\"panel1-content\"]/div/div/div[3]/div"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > div div:nth-of-type(3) > div"
+                ],
+                [
+                    "text/Email ID *Email"
+                ]
+            ],
+            "offsetY": 9.787490844726562,
+            "offsetX": 37.0999755859375
+        },
+        {
+            "type": "change",
+            "value": "saisiri@",
+            "selectors": [
+                [
+                    "aria/Email ID"
+                ],
+                [
+                    "#\\:rh\\:"
+                ],
+                [
+                    "xpath///*[@id=\":rh:\"]"
+                ],
+                [
+                    "pierce/#\\:rh\\:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "2",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "saisiri@gmail.com",
+            "selectors": [
+                [
+                    "aria/Email ID"
+                ],
+                [
+                    "#\\:rh\\:"
+                ],
+                [
+                    "xpath///*[@id=\":rh:\"]"
+                ],
+                [
+                    "pierce/#\\:rh\\:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Mobile Number"
+                ],
+                [
+                    "#\\:ri\\:"
+                ],
+                [
+                    "xpath///*[@id=\":ri:\"]"
+                ],
+                [
+                    "pierce/#\\:ri\\:"
+                ]
+            ],
+            "offsetY": 21.787490844726562,
+            "offsetX": 59.6500244140625
+        },
+        {
+            "type": "change",
+            "value": "7678987667",
+            "selectors": [
+                [
+                    "aria/Mobile Number"
+                ],
+                [
+                    "#\\:ri\\:"
+                ],
+                [
+                    "xpath///*[@id=\":ri:\"]"
+                ],
+                [
+                    "pierce/#\\:ri\\:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Date of Birth"
+                ],
+                [
+                    "#\\:rk\\:"
+                ],
+                [
+                    "xpath///*[@id=\":rk:\"]"
+                ],
+                [
+                    "pierce/#\\:rk\\:"
+                ]
+            ],
+            "offsetY": 21.387496948242188,
+            "offsetX": 63.54998779296875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Date of Birth"
+                ],
+                [
+                    "#\\:rk\\:"
+                ],
+                [
+                    "xpath///*[@id=\":rk:\"]"
+                ],
+                [
+                    "pierce/#\\:rk\\:"
+                ]
+            ],
+            "offsetY": 15.387496948242188,
+            "offsetX": 27.54998779296875
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "1"
+        },
+        {
+            "type": "keyUp",
+            "key": "1",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "1"
+        },
+        {
+            "type": "keyUp",
+            "key": "1",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "0"
+        },
+        {
+            "type": "keyUp",
+            "key": "0",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "6"
+        },
+        {
+            "type": "keyUp",
+            "key": "6",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "1995-06-11",
+            "selectors": [
+                [
+                    "aria/Date of Birth"
+                ],
+                [
+                    "#\\:rk\\:"
+                ],
+                [
+                    "xpath///*[@id=\":rk:\"]"
+                ],
+                [
+                    "pierce/#\\:rk\\:"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/LG Code"
+                ],
+                [
+                    "#\\:r10\\:"
+                ],
+                [
+                    "xpath///*[@id=\":r10:\"]"
+                ],
+                [
+                    "pierce/#\\:r10\\:"
+                ]
+            ],
+            "offsetY": 26.387496948242188,
+            "offsetX": 31.0999755859375
+        },
+        {
+            "type": "change",
+            "value": "HG",
+            "selectors": [
+                [
+                    "aria/LG Code"
+                ],
+                [
+                    "#\\:r10\\:"
+                ],
+                [
+                    "xpath///*[@id=\":r10:\"]"
+                ],
+                [
+                    "pierce/#\\:r10\\:"
+                ]
+            ],
+            "target": "main"
+        }
+    ]
+}

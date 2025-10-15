@@ -1,0 +1,5 @@
+2025-10-08 19:36:21,798 - WARNING - reportlab library not available. PDF generation will be skipped.
+2025-10-08 19:36:37,636 - WARNING - Test execution interrupted by user
+2025-10-08 19:36:50,744 - WARNING - reportlab library not available. PDF generation will be skipped.
+2025-10-08 19:36:52,690 - INFO - === Starting LoginLogout Test Suite ===
+2025-10-08 19:38:24,582 - ERROR - Error during test execution: 'charmap' codec can't encode character '\U0001f4ca' in position 196: character maps to <undefined>

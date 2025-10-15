@@ -1,0 +1,85 @@
+[
+  {
+    "type": "goto",
+    "url": "CONFIG_URL"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "input",
+    "xpath": "//input[@name='username' or contains(@id, 'r')]",
+    "value": "CONFIG_USERNAME"
+  },
+  {
+    "type": "wait",
+    "seconds": 1
+  },
+  {
+    "type": "recaptcha"
+  },
+  {
+    "type": "wait",
+    "seconds": 1
+  },
+  {
+    "type": "click",
+    "xpath": "//button[contains(text(), 'Proceed') or @type='submit']"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "click",
+    "xpath": "//*[@id=\"root\"]/div/div[1]/div[2]/div/form/div[1]/button"
+  },
+  {
+    "type": "wait",
+    "seconds": 1
+  },
+  {
+    "type": "click",
+    "xpath": "//*[@id=\":r9:\"]"
+  },
+  {
+    "type": "wait",
+    "seconds": 0.5
+  },
+  {
+    "type": "input",
+    "xpath": "//*[@id=\":r9:\"]",
+    "value": "INVALID_USER_NOT_FOUND"
+  },
+  {
+    "type": "wait",
+    "seconds": 1
+  },
+  {
+    "type": "recaptcha"
+  },
+  {
+    "type": "wait",
+    "seconds": 1
+  },
+  {
+    "type": "click",
+    "xpath": "//button[contains(text(), 'Proceed') or @type='submit']"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "validate",
+    "xpath": "//div[contains(@class, 'error') or contains(@class, 'alert') or contains(text(), 'not found') or contains(text(), 'invalid') or contains(text(), 'User')]",
+    "expected_text": "user not found",
+    "validation_type": "contains"
+  },
+  {
+    "type": "screenshot",
+    "filename": "user_not_found_error.png"
+  }
+]
+ 

@@ -1,0 +1,28 @@
+{
+  "scenarios": {
+    "light_load": {
+      "num_users": 5,
+      "ramp_up_time": 10,
+      "duration": 120,
+      "description": "Light load test with 5 users"
+    },
+    "medium_load": {
+      "num_users": 20,
+      "ramp_up_time": 30,
+      "duration": 300,
+      "description": "Medium load test with 20 users"
+    },
+    "heavy_load": {
+      "num_users": 50,
+      "ramp_up_time": 60,
+      "duration": 600,
+      "description": "Heavy load test with 50 users"
+    },
+    "stress_test": {
+      "num_users": 100,
+      "ramp_up_time": 120,
+      "duration": 900,
+      "description": "Stress test with 100 users"
+    }
+  }
+}

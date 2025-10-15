@@ -1,0 +1,81 @@
+[
+  {
+    "type": "goto",
+    "url": "CONFIG_URL"
+  },
+  {
+    "type": "wait",
+    "seconds": 3
+  },
+  {
+    "type": "input",
+    "xpath": "//input[@name='username' or contains(@id, 'r')]",
+    "value": "CONFIG_USERNAME"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "recaptcha"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "click",
+    "xpath": "//button[contains(text(), 'Proceed') or @type='submit']"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "input",
+    "xpath": "//input[@type='password' or contains(@id, 'r')]",
+    "value": "CONFIG_PASSWORD"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "click",
+    "xpath": "//button[contains(text(), 'Proceed') or @type='submit']"
+  },
+  {
+    "type": "wait",
+    "seconds": 3
+  },
+  {
+    "type": "screenshot",
+    "filename": "login_success.png"
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "click",
+    "xpath": "//button[contains(@class, 'MuiIconButton') or contains(@aria-label, 'account') or contains(@aria-label, 'user')]",
+    "critical": true
+  },
+  {
+    "type": "wait",
+    "seconds": 2
+  },
+  {
+    "type": "click",
+    "xpath": "//button[contains(text(), 'Logout') or contains(text(), 'Log out') or contains(., 'Logout')]",
+    "critical": true
+  },
+  {
+    "type": "wait",
+    "seconds": 3
+  },
+  {
+    "type": "screenshot",
+    "filename": "logout_success.png"
+  }
+]

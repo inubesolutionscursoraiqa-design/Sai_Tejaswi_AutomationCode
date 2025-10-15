@@ -1,0 +1,12 @@
+---
+alwaysApply: true
+---
+# 🧭 Selenium Code Generation Rules
+
+- For any JSON file under `recordings/.txt`, generate a Selenium workflow in `workflows/<case>/<step>.py`.
+- Wrap code inside `execute(context)` function.
+- Always use Selenium + XPath, never CSS selectors.
+- Support JSON actions: goto, input, click, select, wait, screenshot.
+- Generate logging for each step.
+- Never hardcode values in code; always take from JSON.
+- File names and function names must follow lowercase_with_underscores.
