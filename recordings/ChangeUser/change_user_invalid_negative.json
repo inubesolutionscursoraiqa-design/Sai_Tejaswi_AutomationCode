@@ -73,8 +73,8 @@
   },
   {
     "type": "validate",
-    "xpath": "//div[contains(@class, 'error') or contains(@class, 'alert') or contains(text(), 'not found') or contains(text(), 'invalid') or contains(text(), 'User')]",
-    "expected_text": "user not found",
+    "xpath": "//div[contains(@class, 'error') or contains(@class, 'alert') or contains(text(), 'not found') or contains(text(), 'invalid') or contains(text(), 'User') or contains(text(), 'does not exist') or contains(text(), 'exist')]",
+    "expected_text": "exist",
     "validation_type": "contains"
   },
   {

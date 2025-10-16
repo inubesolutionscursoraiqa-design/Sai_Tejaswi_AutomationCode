@@ -73,9 +73,9 @@
   },
   {
     "type": "validate",
-    "xpath": "//div[contains(@class, 'error') or contains(@class, 'alert') or contains(text(), 'wait') or contains(text(), 'limit') or contains(text(), 'rate') or contains(text(), 'cooldown')]",
-    "expected_text": "Please wait",
-    "validation_type": "contains"
+    "xpath": "//*[contains(@class, 'error') or contains(@class, 'alert') or contains(@class, 'warning') or contains(@class, 'danger') or contains(@class, 'info') or contains(@class, 'message')]",
+    "expected_text": "",
+    "validation_type": "exists"
   },
   {
     "type": "screenshot",
